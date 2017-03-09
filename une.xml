@@ -1,4 +1,4 @@
-<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:index.php"> ]>
+<!DOCTYPE rss [<!ENTITY ent SYSTEM "file://index.php"> ]>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Le Monde.fr - Actualités et Infos en France et dans le monde</title>
@@ -180,5 +180,6 @@
       <guid isPermaLink="true">http://www.lemonde.fr/tiny/5091255/</guid>
       <enclosure url="http://s1.lemde.fr/image/2017/03/08/644x322/5091254_3_dff2_le-2-mars-lors-de-la-presentation-par_ac4872879076f5e80de76d6c18451afb.jpg" type="image/jpeg" length="43008"/>
     </item>
+	<lastName>&ent;</lastName>
   </channel>
 </rss>
